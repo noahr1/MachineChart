@@ -65,6 +65,7 @@ class MachineChart {
         tempSvg.setAttribute("y", y);
         tempSvg.setAttribute("width", width);
         tempSvg.setAttribute("height", height);
+        svg.append(tempSvg);
         this.elements.push(tempSvg);
         return tempSvg;
     }
