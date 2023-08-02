@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Horizontally center the container */
+    align-items: center; /* Vertically center the container */
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    border: 4px solid black;
+    min-width: 250px;
+    max-width: 275px;
+    text-align: center;
+    height: 30%;
+    background-color: #cccccc;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the buttons vertically */
+    align-items: center; /* Center the buttons horizontally */
+    margin-top: 20px; /* Add some top margin to separate from the header */
+}
+
+.buttons div {
+    border: 3px solid black;
+    margin-bottom: 10px;
+    font-size: 25px;
+    width: 75%;
+    background-color: #777777;
+    cursor: default;
+}
+
+.buttons div:hover {
+    background-color: #808080;
+}

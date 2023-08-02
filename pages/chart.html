@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart</title>
+    <script defer src="../js/chart/chart.js"></script>
+    <link rel="stylesheet" href="../css/chart.css">
+</head>
+<body>
+    <div class="title">
+        <h2>Chart Name</h2>
+    </div>
+    <div class="content">
+        <div class="chart-buttons">
+            <div class="shape-button"></div>
+        </div>
+        <div class="shapes">
+            <div>Machine</div>
+            <div>I/O</div>
+            <div>Source</div>
+            <div>Recipe</div>
+        </div>
+        <div class="svg-container">
+            <svg viewBox="0, 0, 10000, 10000" width="10000" height="10000" xmlns="http://www.w3.org/2000/svg"></svg>
+        </div>
+    </div>
+
+    <div id="machModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span id="machClose" class="close">&times;</span>
+          <p>Some text in the Modal..</p>
+        </div>
+    </div>
+</body>
+</html>
